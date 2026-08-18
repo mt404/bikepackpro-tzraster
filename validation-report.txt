@@ -1,0 +1,51 @@
+raster tz_0001.bin: 360000 x 180000 (0.001 deg), 441 zones
+half-diagonal bound at the equator: 78.7 m
+
+truth: 444 source polygons loaded (8s)
+
+uniform global sampling
+  uniform (all surfaces)                               n= 200,000  mismatches=     8 ( 0.004%)  worst=   22.8 m
+          22.8 m from a Asia/Manila boundary at (4.57271, 119.88823); raster said Etc/GMT-8
+          18.9 m from a Asia/Magadan boundary at (64.69122, 163.18299); raster said Asia/Anadyr
+          15.1 m from a America/Vancouver boundary at (60.00033, -134.10612); raster said America/Whitehorse
+          13.3 m from a Asia/Ho_Chi_Minh boundary at (10.52002, 104.83688); raster said Asia/Phnom_Penh
+          12.5 m from a America/Anchorage boundary at (57.73471, -154.81295); raster said Etc/GMT+10
+
+land sampling (Etc/* maritime zones rejected)
+  land only                                            n=  60,000  mismatches=     4 ( 0.007%)  worst=   30.4 m
+          30.4 m from a Asia/Urumqi boundary at (44.95504, 79.95466); raster said Asia/Almaty
+           4.3 m from a Africa/Algiers boundary at (30.86630, -3.63548); raster said Africa/Casablanca
+           3.7 m from a Pacific/Noumea boundary at (-20.94413, 166.50669); raster said Etc/GMT-11
+           1.9 m from a America/Goose_Bay boundary at (53.95474, -67.66543); raster said America/Toronto
+
+route sampling at 25 m spacing
+  Idaho panhandle, Pacific to Mountain                 n=   6,382  mismatches=     0 ( 0.000%)  worst=    0.0 m
+  South Dakota, Mountain to Central                    n=   9,585  mismatches=     0 ( 0.000%)  worst=    0.0 m
+  Arizona to Utah, Phoenix to Denver rules             n=   8,895  mismatches=     5 ( 0.056%)  worst=   50.9 m
+          50.9 m from a America/Phoenix boundary at (37.00101, -111.50000); raster said America/Denver
+          28.7 m from a America/Phoenix boundary at (36.87396, -111.50000); raster said America/Denver
+          25.9 m from a America/Phoenix boundary at (37.00124, -111.50000); raster said America/Denver
+           3.7 m from a America/Phoenix boundary at (36.87374, -111.50000); raster said America/Denver
+           0.9 m from a America/Phoenix boundary at (37.00146, -111.50000); raster said America/Denver
+  Spain to Portugal, Madrid to Lisbon                  n=   6,042  mismatches=    17 ( 0.281%)  worst=   50.3 m
+          50.3 m from a Europe/Lisbon boundary at (41.00000, -6.91697); raster said Europe/Madrid
+          42.4 m from a Europe/Lisbon boundary at (41.00000, -6.91667); raster said Europe/Madrid
+          34.5 m from a Europe/Lisbon boundary at (41.00000, -6.91637); raster said Europe/Madrid
+          26.6 m from a Europe/Lisbon boundary at (41.00000, -6.91607); raster said Europe/Madrid
+          21.1 m from a Europe/Lisbon boundary at (41.00000, -6.91578); raster said Europe/Madrid
+  Pyrenees, France to Spain (control, no change)       n=   4,003  mismatches=     0 ( 0.000%)  worst=    0.0 m
+  South Australia to New South Wales (half-hour step)  n=   9,218  mismatches=     3 ( 0.033%)  worst=   27.3 m
+          27.3 m from a Australia/Melbourne boundary at (-34.00000, 140.96398); raster said Australia/Adelaide
+          14.8 m from a Australia/Adelaide boundary at (-34.00000, 140.98080); raster said Australia/Melbourne
+           2.3 m from a Australia/Melbourne boundary at (-34.00000, 140.96371); raster said Australia/Adelaide
+  Oregon coast, inland to territorial water            n=   2,201  mismatches=     1 ( 0.045%)  worst=   17.1 m
+          17.1 m from a Etc/GMT+8 boundary at (45.00000, -124.30186); raster said America/Los_Angeles
+  Kazakhstan, Qostanay remap region                    n=  14,300  mismatches=     0 ( 0.000%)  worst=    0.0 m
+
+==============================================================================
+samples          320,626
+mismatches       38
+worst any set    50.9 m (bound 78.7 m)
+beyond the bound 0
+==============================================================================
+PASS: every mismatch lies within half a cell diagonal of a real boundary

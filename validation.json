@@ -1,0 +1,85 @@
+{
+  "cell_diagonal_bound_m": 78.71512688168647,
+  "results": [
+    {
+      "label": "uniform (all surfaces)",
+      "samples": 200000,
+      "mismatches": 8,
+      "mismatch_rate": 4e-05,
+      "worst_displacement_m": 22.825058297448578,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "land only",
+      "samples": 60000,
+      "mismatches": 4,
+      "mismatch_rate": 6.666666666666667e-05,
+      "worst_displacement_m": 30.38162074349016,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "Idaho panhandle, Pacific to Mountain",
+      "samples": 6382,
+      "mismatches": 0,
+      "mismatch_rate": 0.0,
+      "worst_displacement_m": 0.0,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "South Dakota, Mountain to Central",
+      "samples": 9585,
+      "mismatches": 0,
+      "mismatch_rate": 0.0,
+      "worst_displacement_m": 0.0,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "Arizona to Utah, Phoenix to Denver rules",
+      "samples": 8895,
+      "mismatches": 5,
+      "mismatch_rate": 0.0005621135469364812,
+      "worst_displacement_m": 50.86652448735552,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "Spain to Portugal, Madrid to Lisbon",
+      "samples": 6042,
+      "mismatches": 17,
+      "mismatch_rate": 0.0028136378682555446,
+      "worst_displacement_m": 50.332338381256974,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "Pyrenees, France to Spain (control, no change)",
+      "samples": 4003,
+      "mismatches": 0,
+      "mismatch_rate": 0.0,
+      "worst_displacement_m": 0.0,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "South Australia to New South Wales (half-hour step)",
+      "samples": 9218,
+      "mismatches": 3,
+      "mismatch_rate": 0.0003254502061184639,
+      "worst_displacement_m": 27.281067788152402,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "Oregon coast, inland to territorial water",
+      "samples": 2201,
+      "mismatches": 1,
+      "mismatch_rate": 0.00045433893684688776,
+      "worst_displacement_m": 17.14284406364951,
+      "beyond_half_diagonal": 0
+    },
+    {
+      "label": "Kazakhstan, Qostanay remap region",
+      "samples": 14300,
+      "mismatches": 0,
+      "mismatch_rate": 0.0,
+      "worst_displacement_m": 0.0,
+      "beyond_half_diagonal": 0
+    }
+  ]
+}

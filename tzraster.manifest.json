@@ -1,0 +1,21 @@
+{
+  "file_bytes": 33687830,
+  "format_version": 1,
+  "height": 180000,
+  "legacy_remapped": {
+    "America/Ciudad_Juarez": "America/Denver",
+    "America/Coyhaique": "America/Punta_Arenas",
+    "America/Nuuk": "America/Godthab",
+    "Asia/Qostanay": "Asia/Qyzylorda",
+    "Europe/Kyiv": "Europe/Kiev",
+    "Pacific/Kanton": "Pacific/Enderbury"
+  },
+  "max_runs_in_row": 125,
+  "mean_runs_per_row": 46.242311111111114,
+  "nodata_cells": 1,
+  "resolution_degrees": 0.001,
+  "source": "combined-with-oceans.json",
+  "total_runs": 8323616,
+  "width": 360000,
+  "zone_count": 441
+}

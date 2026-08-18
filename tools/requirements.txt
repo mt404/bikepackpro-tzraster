@@ -1,0 +1,5 @@
+# Direct dependencies of generate_tzraster.py and validate_tzraster.py.
+# rasterio's wheels vendor their own GDAL, so no system GDAL install is needed.
+numpy==2.2.6
+rasterio==1.4.4
+shapely==2.1.2
